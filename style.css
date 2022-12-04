@@ -1,0 +1,285 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+li{list-style-type: none;}
+p{font-size: 1rem;}
+.subject{font-size: 1.2rem;}
+.title{font-size: 1.5rem;}
+.title-l{
+    font-size: 1.5rem;
+    text-align: left;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: rgb(241, 126, 234);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 1200px;
+    /* position: fixed; */
+}
+.nav-logo{flex: 1;margin-left: 10px;}
+.list{flex: 6;}
+.list ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.list li{
+    padding: 10px;
+    margin: 10px;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.language{display:flex; flex: 1;}
+select{
+    padding: 0 10px;
+}
+
+.about{
+    width: 1200px;
+
+}
+
+.ontact{
+    text-align: center;
+    padding: 100px 0;
+}
+.ontact .subject{
+    margin-bottom : 60px;
+}
+.ontact p{
+    margin: 30px 0;
+}
+
+.strategy{
+    text-align: center;
+    padding: 100px 0;
+}
+
+.dapps{
+    display: flex;
+    margin-top: 80px;
+}
+.dapps .about-wrap-text {
+    margin-left: 30px;
+    width: 50%;
+    text-align: left;
+}
+.about-wrap-text p{
+    margin-top: 20px;
+}
+.dapps img{margin: 0 30px;}
+
+.real{
+    display: flex;
+    margin-top: 80px;
+}
+.real .about-wrap-text {
+    margin-right: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.ecosystem{
+    padding: 100px 0;
+    text-align: center;
+}
+.ecosystem p{margin: 30px 0;}
+
+.service{max-width: 1200px;}
+.token{padding: 100px 0;}
+.token .subject{text-align: center;}
+.token .title {
+    text-align: center;
+    margin: 50px 0;
+}
+.token-wrap1{
+    display: flex;
+}
+.token-wrap1 ul{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.token-wrap1 li{
+    font-size: 1.2rem;
+    list-style-type:square;
+    padding: 20px;
+}
+.token-wrap2{
+    color: aliceblue;
+    margin-top: 50px;
+    background-color: #aaa;
+    width: 1000px;
+    display: flex;
+}
+.token-wrap2-1 {padding: 20px;}
+.token-wrap2-1 p{font-size: 1.1rem;}
+.token-wrap2-2 {padding: 20px;}
+
+.features{padding: 100px 0;max-width: 1200px;}
+.features .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.features-wrap{display: flex;}
+.features-wrapbox{margin: 20px 40px;}
+.features-wrapbox .title-l{margin: 14px 0;}
+.features-value{
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.features-value span:first-child{font-size: 2rem;} 
+.features-value span:nth-child(2){font-size: 2.5rem;}
+.features-value p{margin-top: 20px;}
+.features-value1 {text-align: center;}
+
+.flow{padding: 100px 0; text-align: center;}
+.flow p{margin: 30px;}
+
+.case{padding: 100px 0;max-width: 1200px;}
+.case .title{margin-bottom: 50px; text-align: center;}
+.case-wrap{
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.case-box{
+    max-width: 360px;
+    text-align: center;
+}
+.case-box .subject {margin: 22px 0;}
+.case-box p {margin-bottom: 20px;}
+
+.point-wrap{display: flex;}
+.point{padding: 100px 0;max-width: 1200px;}
+.point-text{margin-left: 120px;}
+.point-text p{margin: 30px 0;}
+.point-text button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.docs{
+    padding: 100px 0;
+    width: 1200px;
+    max-width: 1200px;
+    display: flex;
+}
+.docs-l{margin: 0;}
+.docs-r{margin-right: 0;}
+.docs-r img{margin-left: 30px;}
+
+.join{padding: 100px 0;}
+.join .title{text-align: center; margin-bottom: 40px;}
+.buy-wrap{display: flex;}
+.buy-box{width:260px; margin: 0 10px;}
+.buy-title-box{
+    background-color: #aaa;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.buy-content-box{
+    margin-top: 20px;
+    border: #000 solid 0.5px;
+    padding: 20px;
+    height: 260px;
+    
+}
+.buy-content-box ul{height: 220px;}
+.buy-content-box li{padding-bottom: 20px;}
+.buy-btn{display: flex;}
+.buy-content-box button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    width: 110px;
+}
+
+.how{padding: 100px 0;text-align: center;}
+.how .title{margin-bottom: 40px;}
+
+.updates{padding: 100px 0;text-align: center;}
+.updates p{margin: 10px 0 30px 0;}
+.updates input{width: 250px; padding:10px;}
+.updates button{padding: 12px 20px; border: none; background-color: #888; color: #fff;}
+
+.allocation{padding: 100px 0;}
+.allocation .title{text-align: center;margin-bottom: 40px;}
+.allocation-wrap{width: 1200px; display: flex;}
+.allocation img{margin: 0;}
+.tokenomics{margin-right: 0;}
+.tokenomics p{margin-bottom: 20px;}
+.tokenomics-box table{
+    text-align: left;
+    border: #ccc 1px solid;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.tokenomics-box tbody th, td{padding: 10px 80px 10px 10px;}
+.tokenomics-box tbody td{border-top: #000 1px solid;}
+
+.roadmap{padding: 100px 0; text-align: center;}
+.roadmap .title{margin-bottom: 40px;}
+
+.team{width: 1200px;}
+.team .subject{text-align: center;}
+.team .title{margin: 20px 0; text-align: center;}
+.team-wrap{display: flex; flex-wrap: wrap;}
+.members{margin: 50px 0;}
+.member{width: 260px;}
+.member-name{display: flex; align-items: center;}
+.member-name p{margin: 10px 0;}
+.member-name img{margin-left: 10px;}
+.member-position{margin-bottom: 15px; font-size: 1.2rem;}
+
+.partners{padding: 100px 0; width: 1200px;}
+.partners .subject{text-align: center;}
+.partners .title{margin: 20px 0; text-align: center;}
+.partners-wrap{display: flex; flex-wrap: wrap;}
+.partner-box{width: 260px;}
+.partner-box p{margin: 20px 0 30px 0; text-align: center;}
+
+.news{padding: 100px 0; width: 1200px;}
+.news .title{margin-bottom: 40px; text-align: center;}
+.news-wrap{display: flex; flex-wrap: wrap;}
+.news-box{width:260px; text-align: left;}
+.news-box p{margin: 8px 0;}
+
+footer{background-color: #eee;}
+.footer-wrap{display: flex; width: 1200px; padding-top: 40px;}
+.footer-wrap ul p{margin: 10px 0;}
+.footer-wrap li {padding: 5px 0;}
+.contact p{margin-top: 10px;}
+.contact input{
+    width:100%;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    background-color: transparent;
+}
+.contact button{
+    margin-top: 20px;
+    padding: 4px 12px;
+    background-color: #ccc;
+    border: none;
+}
+.footer-wrap2{display: flex; align-items: center; padding: 40px 0;}
+.footer-wrap2 span{margin: 0 40px;}
+.social{display: flex; margin-right: 40px;}
+.social li{margin-left: 20px;}
